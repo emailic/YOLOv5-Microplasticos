@@ -1,0 +1,10 @@
+
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: /content/drive/My Drive/microplasticos/images  # dataset root dir
+train: train_576 # train images (relative to 'path') 128 images
+val: val_576 # val images (relative to 'path') 128 images
+test: test_576  # test images (optional)
+
+# Classes
+nc: 5  # number of classes
+names: ['fragment', 'line', 'organic', 'pellet', 'tar']  # class names
